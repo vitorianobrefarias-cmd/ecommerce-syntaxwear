@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SyntaxWear - Tênis e Sneakers Online</title>
+  <meta name="description"
+    content="Compre tênis e sneakers online na SyntaxWear. Descubra os últimos lançamentos, modelos exclusivos e promoções imperdíveis." />
 
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/variables.css">
@@ -12,6 +14,7 @@
   <link rel="stylesheet" href="./css/layout.css">
   <link rel="stylesheet" href="./css/componentes/header.css">
   <link rel="stylesheet" href="./css/componentes/hero.css">
+  <link rel="stylesheet" href="./css/componentes/product-category.css">
 </head>
 
 <body>
@@ -61,24 +64,56 @@
 
   <main>
     <section class="hero">
-     <div class="hero-overlay">
-      <div class="hero-content">
-        <span class="hero-subtitle">Krypton One</span>
-        <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
-        <div class="hero-buttons">
-          <a class="btn btn-outline" href="#">Ver Modelos</a>
-          <a class="btn btn-filled" href="#" >Comprar</a>
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <span class="hero-subtitle">Krypton One</span>
+          <h2 class="hero-title">Transforme qualquer passo em presença.</h2>
+          <div class="hero-buttons">
+            <a class="btn btn-outline" href="#">Ver Modelos</a>
+            <a class="btn btn-filled" href="#">Comprar</a>
+          </div>
         </div>
-      </div>
       </div>
     </section>
 
-    <section class="product-grid"></section>
+    <section class="categories-section">
+
+        <div class="category-card casual">
+          <a href="#" class="category-link">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Casual</span>
+          </a>
+        </div>
+
+        <div class="category-card moderno">
+          <a href="#" class="category-link">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Moderno</span>
+          </a>
+        </div>
+
+        <div class="category-card esporte">
+          <a href="#" class="category-link">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Esporte</span>
+          </a>
+        </div>
+
+        <div class="category-card futurista">
+          <a href="#" class="category-link">
+            <span class="overlay"></span>
+            <span class="category-name btn btn-outline">Futurista</span>
+          </a>
+        </div>
+
+    </section>
 
     <section class="panel"></section>
+
   </main>
 
   <footer class="site-footer"></footer>
 
 </body>
+
 </html>
