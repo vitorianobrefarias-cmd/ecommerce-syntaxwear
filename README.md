@@ -2,7 +2,7 @@
 
 > "Transforme qualquer passo em presença."
 
-🔗 **Acesse o site online:** [https://github.com/vitorianobrefarias-cmd/ecommerce-syntaxwear](https://github.com/vitorianobrefarias-cmd/ecommerce-syntaxwear)
+🔗 **Acesse o site online:** [https://vitorianobrefarias-cmd.github.io/ecommerce-syntaxwear/](https://vitorianobrefarias-cmd.github.io/ecommerce-syntaxwear/)
 
 O **SyntaxWear** é uma interface moderna e responsiva de e-commerce focada na venda de tênis e sneakers exclusivos. O projeto foi desenvolvido com foco em alta performance, fidelidade visual e estruturação limpa de código, servindo como uma vitrine virtual para calçados casuais, modernos, esportivos e futuristas.
 
