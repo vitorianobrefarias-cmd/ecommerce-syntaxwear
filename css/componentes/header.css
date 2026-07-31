@@ -1,17 +1,17 @@
 /* header.css */
 .header{
-    background-color: #ffffff;
-    position:fixed;
+    position: fixed;
     top: 60px;
     left: 50%;
     transform: translateX(-50%);
-    width: calc(100% - 210px);
+    width: 1260px;
     border-radius: 15px;
     z-index: 999;
     display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding: 0.255rem 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.265rem 1.25rem;
+    background-color: #ffffff;
 }
 .logo img{
     height: 48px;
@@ -48,9 +48,11 @@
 
 .nav-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     align-items: center;
+    flex:1;
+    margin-left: 10rem;
 }
 
 .menu-toggle{
